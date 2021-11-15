@@ -26,13 +26,14 @@ h2{
     font-size: 16px;
 
 }
+
 li{
     text-align: center;
     font-size: 12px;
     list-style: none;
     padding: 5px;
   
-}
+} 
 ul{
 
     margin-bottom: 20px;
@@ -44,11 +45,11 @@ ul{
    justify-content: center;
     text-align: center;
    align-items: center;
-    width: 90%;
+    width: 80%;
     border: 5px solid grey;
     box-shadow: 0px 5px 10px 0px ;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
 }
 
 footer{
@@ -56,6 +57,7 @@ footer{
     height: 60px;
     bottom: 0px;
     position:fixed;
+    margin-top: 50px;
     
 }
 
@@ -65,9 +67,18 @@ footer{
     background-color:powderblue;
     border: 3px solid olive;
     text-align: center;
+    margin-top: 50px;
+
+}
+.radio{
+    display:flex;
+    float: left;
+   position: relative;
+   justify-content: left;
+   vertical-align:middle;
+    left: 0px;
+    margin: 0px 20px 10px 0px;
    
-   
-     
    
 }
 
@@ -80,12 +91,6 @@ footer{
 
 }
 
-input{
-    width: 300px;
-    height: 80px;
-    margin: 10px;
-    
-}
 
 label{
   
@@ -93,7 +98,20 @@ label{
     
    
 }
-.signin, .quiz{
+#fname{
+    margin: 20px;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+}
+#qname{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+}
+
+.signin, .quiz {
   
     display: flex;
     flex: wrap;
@@ -101,8 +119,15 @@ label{
     justify-content: space-between;
     text-align:center;
     align-items: center;
-
-
-
+    margin-bottom: 50px;
+    padding: 20px;
     
+}
+
+
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 50px
 }
