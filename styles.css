@@ -8,8 +8,6 @@
  
 }
 
-
-
 body{
     margin: 20px;
  
@@ -38,28 +36,10 @@ ul{
 
     margin-bottom: 20px;
 }
-.marks{
-    float: right;
-     width: 45px;
-     margin-right: -70px;
-     margin-top: -80px;
-   
- }
-float{
-    clear: none;
-}
-
-.Question{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 80%;
-    border: 5px solid grey;
-    box-shadow: 0px 5px 10px 0px ;
-    margin: 30px;
-    padding: 20px;
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 50px
 }
 
 footer{
@@ -70,43 +50,13 @@ footer{
     margin-top: 50px;
     
 }
-
-
-.icons{
-    
-    background-color:powderblue;
-    border: 3px solid olive;
-    text-align: center;
-    margin-top: 50px;
-
-}
-.radio{
-    display:flex;
-    float: left;
-    position: relative;
-    justify-content: left;
-    vertical-align:middle;
-    left: 0px;
-    margin: 0px 20px 10px 0px;
-   
-   
-}
-
-
-.buttons{
-    width: 50px;
-    justify-content: space-around;
-    margin: 0px 15px 0px 15px;
-
-}
-
-
 label{
   
     font-size: 20px;
     
-   
 }
+/* ---IDs start--*/
+
 #fname{
     margin: 20px;
     width: 200px;
@@ -119,8 +69,65 @@ label{
     height: 30px;
     align-items: center;
 }
+/* ---IDs Ende--*/
 
-.signin, .quiz {
+/* -----Klassen start----*/
+
+.question_marks{
+    float: right;
+     width: 45px;
+     margin-right: -70px;
+     margin-top: -80px;
+   
+ }
+.question_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    border: 5px solid grey;
+    box-shadow: 0px 5px 10px 0px ;
+    margin: 30px;
+    padding: 20px;
+}
+
+.question_cards--radio{
+    display:flex;
+    float: left;
+    position: relative;
+    justify-content: left;
+    vertical-align:middle;
+    left: 0px;
+    margin: 0px 20px 10px 0px;
+}
+
+.navbar_icons{
+    
+    background-color:powderblue;
+    border: 3px solid olive;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.navbar_icons--buttons{
+    width: 50px;
+    justify-content: space-around;
+    margin: 0px 15px 0px 15px;
+
+}
+
+.question_cards--OK{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+
+ .signin_label, .quiz_label{
   
     display: flex;
     flex: wrap;
@@ -132,17 +139,8 @@ label{
     padding: 20px;
     
 }
+/* -----Klassen ende----*/
 
 
 
-img{
-    width: 200px;
-    height: auto;
-    border-radius: 50px
-}
-.OK{
-    width: 80px;
-    height: 40px;
-    margin: 10px;
-}
 
