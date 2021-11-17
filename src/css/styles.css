@@ -1,4 +1,14 @@
 
+@import './base.css';
+@import './utilities.css';
+@import './components/cards.css';
+@import './components/footer.css';
+@import './components/header.css';
+@import './components/image.css';
+@import './components/form.css';
+
+
+[<!--
 
 *{  
     box-sizing: border-box;
@@ -7,6 +17,7 @@
   
  
 }
+
 :root{
 
     --primary-color: grey;
@@ -114,7 +125,7 @@ h2{
     margin: 0px 10px 10px 0px;
 }
 
-.navbar_icons{
+.footer_menu--icons{
     
     background-color:var(--secondary-color);
     border: 3px solid olive;
@@ -123,7 +134,7 @@ h2{
 
 }
 
-.navbar_icons--buttons{
+.footer_menu--icons--buttons{
     width: 50px;
     justify-content: space-around;
     margin: 0px 15px 0px 15px;
@@ -153,5 +164,5 @@ h2{
 
 
 
-
+-->]
 

@@ -1,5 +1,13 @@
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+}
+
+header{
+    background-color: var(--secondary-color);
+    border: 3px solid olive;
+    text-align: center;
+    height: 70px;
+
 }

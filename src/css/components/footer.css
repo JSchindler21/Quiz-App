@@ -1,6 +1,15 @@
 
 
-.navbar_icons{
+footer{
+    width: 90%;
+    height: 60px;
+    bottom: 0px;
+    position:fixed;
+    margin-top: 50px;
+    
+}
+
+.footer_menu{
     
     background-color:var(--secondary-color);
     border: 3px solid olive;
@@ -9,7 +18,7 @@
 
 }
 
-.navbar_icons--buttons{
+.footer_menu--buttons{
     width: 50px;
     justify-content: space-around;
     margin: 0px 15px 0px 15px;
