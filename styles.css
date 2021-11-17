@@ -15,8 +15,6 @@
 
 }
     
-    
-
 body{
     margin: 20px;
  
@@ -28,11 +26,6 @@ h1{
     font-size: 40px;
 }
 
-h2{
-    text-align: center;
-    font-size: 16px;
-
-}
 
 li{
     text-align: center;
@@ -41,10 +34,13 @@ li{
     padding: 5px;
   
 } 
+
+/*
 ul{
 
     margin-bottom: 20px;
-}
+}*/
+
 img{
     width: 200px;
     height: auto;
@@ -64,6 +60,10 @@ label{
     font-size: 20px;
     
 }
+h2{
+    text-align: center;
+    font-size: 20px;
+}
 /* ---IDs start--*/
 
 #fname{
@@ -82,13 +82,7 @@ label{
 
 /* -----Klassen start----*/
 
-.question_marks{
-    float: right;
-     width: 45px;
-     margin-right: -70px;
-     margin-top: -80px;
-   
- }
+
 .question_cards{
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +95,15 @@ label{
     margin: 30px;
     padding: 20px;
 }
+
+.question_marks{
+    
+     width: 45px;
+     margin-top: -230px;
+     margin-left: 230px;
+   
+ }
+
 
 .question_cards--radio{
     display:flex;
@@ -128,12 +131,12 @@ label{
 
 }
 
-.question_cards--OK{
-    width: 80px;
+/*.question_cards--OK{
+    width: 100px;
     height: 40px;
     margin: 10px;
 }
-
+*/
 
 
  .signin_label, .quiz_label{
