@@ -1,0 +1,17 @@
+
+
+.navbar_icons{
+    
+    background-color:var(--secondary-color);
+    border: 3px solid olive;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.navbar_icons--buttons{
+    width: 50px;
+    justify-content: space-around;
+    margin: 0px 15px 0px 15px;
+
+}
