@@ -2,51 +2,61 @@
 
 
 .question_cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
     align-items: center;
-    width: 90%;
     background-color: var(--third-c);
     border: 5px solid var(--primary-color);
     box-shadow: 10px 10px 20px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 40px auto;
     padding: 20px;
     position: relative;
+    text-align: center;
+    width: 90%;
 }
 
+
 .question_marks{
-    position: absolute;
-     width: 60px;
     height: 45px;
-     right: 20px;
-     top: -20px
-   
- }
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    width: 60px;
+}
 
 
 .question_cards--radio{
-   
+        margin: 0px 0px 20px 0px;
+        position: relative;
+        text-align: center;
+    }
+.question_button--answer{
+    background-color: var( --fourth-c);
+    border-radius:20%;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
     position: relative;
-    text-align: center;
-   
-    margin: 0px 0px 20px 0px;
-    
-   
+    text-decoration: none;
 }
-input[name="rr"]{
-  width: 40px;
-
+.question_button--answer:after {
+    content: '>>' ;
+    cursor: pointer;
+    opacity: 0;
+    position:absolute;
+    right: -20px;
+    size: 90px;
+    transition: 1s;
 }
-
-input[type="button"]{
-    margin: 10px;
-    width: 80px;
-    height: 50px;
-    color: #577590;
-    border: 4px solid rgb(240, 184, 184);
-    border-radius: 50%;
-    font-size: 25px;
-    box-shadow: 4px 4px 5px gray;
+  .question_button--answer:hover{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+  
+  .question_button--answer:hover:after {
+    opacity: 5;
+    right: 20px;
 }

@@ -1,25 +1,31 @@
 #fname{
-    margin: 20px;
-    width: 200px;
-    height: 80px;
     align-items: center;
+    height: 10vh;
+    margin: 20px;
+    width: 30vh;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 6px 6px 5px 2px var(--fourth-c);
+    border-radius: 20%;
 }
 #qname{
-    margin: 20px;
-    width: 150px;
-    height: 30px;
     align-items: center;
+    height: 10vh;
+    margin: 20px;
+    width: 30vh;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 6px 6px 5px 2px var(--fourth-c);
+    border-radius: 20%;
 }
 
 .signin_label, .quiz_label{
-  
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align:center;
-    align-items: center;
-    margin-bottom: 50px;
-    padding: 20px;
-    
-}
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       flex: wrap;
+       justify-content: space-between;
+       margin-bottom: 50px;
+       padding: 20px;
+       text-align:center;
+       
+   }
+   
