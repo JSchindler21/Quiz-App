@@ -2,7 +2,7 @@
 *{
        box-sizing: border-box;
        font-family: fantasy;
-       max-width: 600px;
+       
    }
 :root {
     --fourth-c: rgb(240, 184, 184);
@@ -13,7 +13,7 @@
 
 
 body{
-    margin: 20px;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
